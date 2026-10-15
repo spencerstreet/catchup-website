@@ -7,10 +7,34 @@
 
 
 @font-face {
-  font-family: "ABC Repro";
-  src: url("../assets/fonts/ABCReproVariable-Trial.woff2") format("woff2-variations"),
-       url("../assets/fonts/ABCReproVariable-Trial.ttf")   format("truetype-variations");
-  font-weight: 100 900;
+  font-family: "Founders Grotesk";
+  src: url("../assets/fonts/founders-grotesk-regular.woff2") format("woff2"),
+       url("../assets/fonts/founders-grotesk-regular.ttf")   format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Founders Grotesk";
+  src: url("../assets/fonts/founders-grotesk-medium.woff2") format("woff2"),
+       url("../assets/fonts/founders-grotesk-medium.ttf")   format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Founders Grotesk";
+  src: url("../assets/fonts/founders-grotesk-semibold.woff2") format("woff2"),
+       url("../assets/fonts/founders-grotesk-semibold.ttf")   format("truetype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Founders Grotesk";
+  src: url("../assets/fonts/founders-grotesk-bold.woff2") format("woff2"),
+       url("../assets/fonts/founders-grotesk-bold.ttf")   format("truetype");
+  font-weight: 700;
   font-style: normal;
   font-display: swap;
 }
@@ -116,10 +140,10 @@
       linear-gradient(180deg, var(--skywash) 0%, var(--p-bg-stone) 100%);
 
   /* ── Typography stacks ──────────────────────────────────── */
-  --font-display: "ABC Repro", "Inter Tight", -apple-system, system-ui, sans-serif;
+  --font-display: "Founders Grotesk", "Inter Tight", -apple-system, system-ui, sans-serif;
   --font-serif:   "Source Serif 4", Georgia, serif;   /* unused — no serif in the app */
-  --font-body:    "ABC Repro", "Inter Tight", -apple-system, system-ui, sans-serif;
-  --font-ui:      "ABC Repro", -apple-system, system-ui, sans-serif;
+  --font-body:    "Founders Grotesk", "Inter Tight", -apple-system, system-ui, sans-serif;
+  --font-ui:      "Founders Grotesk", -apple-system, system-ui, sans-serif;
   --font-mono:    ui-monospace, "SF Mono", Menlo, monospace;   /* unused — the site is one typeface */
 
   /* Type sizes (mobile UI scale — most surfaces are 393pt phone) */

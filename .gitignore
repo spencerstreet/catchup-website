@@ -1,7 +1,8 @@
 .DS_Store
 
-# Source font family — only the variable file we ship lives in assets/fonts/
+# Source font families — only the weights we ship live flat in assets/fonts/
 ABC Repro/
+assets/fonts/Founders Grotesk/
 
 # Design reference exports — self-extracting bundles with assets inlined.
 # 16MB+ each, and git keeps them forever once committed.
